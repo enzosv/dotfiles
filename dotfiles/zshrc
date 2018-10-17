@@ -99,7 +99,13 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias dotdrop='/Users/enzo/Dev/dotfiles/dotdrop.sh --cfg=/Users/enzo/Dev/dotfiles/config.yaml'
+# Your dotdrop git repository location
+export DOTREPO="/Users/enzo/Dev/dotfiles/"
+
+alias dotdrop="$DOTREPO/dotdrop.sh --cfg=$DOTREPO/config.yaml"
+alias dotgit="git -C $DOTREPO"
+alias dotsync="dotgit pull && dotgit add -A && dotgit commit && dotgit push; dotdrop install"
+
 export PATH=$PATH:$HOME/bin
 export EDITOR='subl -w'
 
