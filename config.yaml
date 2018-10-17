@@ -9,6 +9,9 @@ config:
   showdiff: false
   workdir: ~/.config/dotdrop
 dotfiles:
+  f_pure.zsh:
+    dst: ~/Library/Mobile Documents/com~apple~CloudDocs/Stuff/ohmyzsh/pure.zsh
+    src: Library/Mobile Documents/com~apple~CloudDocs/Stuff/ohmyzsh/pure.zsh
   f_zshrc:
     dst: ~/.zshrc
     src: zshrc
@@ -16,3 +19,4 @@ profiles:
   pwet.T-mobile.com:
     dotfiles:
     - f_zshrc
+    - f_pure.zsh
