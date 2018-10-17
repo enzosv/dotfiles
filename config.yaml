@@ -23,7 +23,7 @@ dotfiles:
     src: Documents/Bitbar/timezonesplus.30s.sh
   f_com.apple.dt.xcode.plist:
     dst: ~/Library/Preferences/com.apple.dt.Xcode.plist
-    link: true
+    link: false
     src: Library/Preferences/com.apple.dt.Xcode.plist
   f_dracula.xccolortheme:
     dst: ~/Library/Developer/Xcode/UserData/FontAndColorThemes/Dracula.xccolortheme
