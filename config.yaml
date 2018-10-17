@@ -21,6 +21,14 @@ dotfiles:
     dst: ~/Documents/Bitbar/timezonesplus.30s.sh
     link: true
     src: Documents/Bitbar/timezonesplus.30s.sh
+  f_com.apple.dt.xcode.plist:
+    dst: ~/Library/Preferences/com.apple.dt.Xcode.plist
+    link: true
+    src: Library/Preferences/com.apple.dt.Xcode.plist
+  f_dracula.xccolortheme:
+    dst: ~/Library/Developer/Xcode/UserData/FontAndColorThemes/Dracula.xccolortheme
+    link: true
+    src: Library/Developer/Xcode/UserData/FontAndColorThemes/Dracula.xccolortheme
   f_iterm2_com.googlecode.iterm2.plist:
     dst: ~/Documents/iTerm2/com.googlecode.iterm2.plist
     link: true
@@ -42,3 +50,5 @@ profiles:
     - f_bitbar_load_temp_fan.10s.sh
     - f_bitbar_timezonesplus.30s.sh
     - f_iterm2_com.googlecode.iterm2.plist
+    - f_dracula.xccolortheme
+    - f_com.apple.dt.xcode.plist
