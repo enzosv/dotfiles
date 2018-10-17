@@ -9,22 +9,26 @@ config:
   showdiff: false
   workdir: ~/.config/dotdrop
 dotfiles:
-  f_com.googlecode.iterm2.plist:
-    dst: ~/Library/Mobile Documents/com~apple~CloudDocs/Stuff/iTerm2/com.googlecode.iterm2.plist
+  f_async.zsh:
+    dst: ~/.oh-my-zsh/custom/async.zsh
     link: true
-    src: Library/Mobile Documents/com~apple~CloudDocs/Stuff/iTerm2/com.googlecode.iterm2.plist
-  f_load_temp_fan.10s.sh:
-    dst: ~/Library/Mobile Documents/com~apple~CloudDocs/Stuff/Bitbar/load_temp_fan.10s.sh
+    src: oh-my-zsh/custom/async.zsh
+  f_bitbar_load_temp_fan.10s.sh:
+    dst: ~/Documents/Bitbar/load_temp_fan.10s.sh
     link: true
-    src: Library/Mobile Documents/com~apple~CloudDocs/Stuff/Bitbar/load_temp_fan.10s.sh
+    src: Documents/Bitbar/load_temp_fan.10s.sh
+  f_bitbar_timezonesplus.30s.sh:
+    dst: ~/Documents/Bitbar/timezonesplus.30s.sh
+    link: true
+    src: Documents/Bitbar/timezonesplus.30s.sh
+  f_iterm2_com.googlecode.iterm2.plist:
+    dst: ~/Documents/iTerm2/com.googlecode.iterm2.plist
+    link: true
+    src: Documents/iTerm2/com.googlecode.iterm2.plist
   f_pure.zsh:
-    dst: ~/Library/Mobile Documents/com~apple~CloudDocs/Stuff/ohmyzsh/pure.zsh
+    dst: ~/.oh-my-zsh/custom/pure.zsh
     link: true
-    src: Library/Mobile Documents/com~apple~CloudDocs/Stuff/ohmyzsh/pure.zsh
-  f_timezonesplus.30s.sh:
-    dst: ~/Library/Mobile Documents/com~apple~CloudDocs/Stuff/Bitbar/timezonesplus.30s.sh
-    link: true
-    src: Library/Mobile Documents/com~apple~CloudDocs/Stuff/Bitbar/timezonesplus.30s.sh
+    src: oh-my-zsh/custom/pure.zsh
   f_zshrc:
     dst: ~/.zshrc
     link: true
@@ -33,7 +37,8 @@ profiles:
   pwet.T-mobile.com:
     dotfiles:
     - f_zshrc
+    - f_async.zsh
     - f_pure.zsh
-    - f_com.googlecode.iterm2.plist
-    - f_timezonesplus.30s.sh
-    - f_load_temp_fan.10s.sh
+    - f_bitbar_load_temp_fan.10s.sh
+    - f_bitbar_timezonesplus.30s.sh
+    - f_iterm2_com.googlecode.iterm2.plist
