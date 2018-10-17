@@ -4,7 +4,7 @@ config:
   create: true
   dotpath: dotfiles
   keepdot: false
-  link_by_default: false
+  link_by_default: true
   longkey: false
   showdiff: false
   workdir: ~/.config/dotdrop
