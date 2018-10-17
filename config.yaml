@@ -11,12 +11,15 @@ config:
 dotfiles:
   f_com.googlecode.iterm2.plist:
     dst: ~/Library/Mobile Documents/com~apple~CloudDocs/Stuff/iTerm2/com.googlecode.iterm2.plist
+    link: true
     src: Library/Mobile Documents/com~apple~CloudDocs/Stuff/iTerm2/com.googlecode.iterm2.plist
   f_pure.zsh:
     dst: ~/Library/Mobile Documents/com~apple~CloudDocs/Stuff/ohmyzsh/pure.zsh
+    link: true
     src: Library/Mobile Documents/com~apple~CloudDocs/Stuff/ohmyzsh/pure.zsh
   f_zshrc:
     dst: ~/.zshrc
+    link: true
     src: zshrc
 profiles:
   pwet.T-mobile.com:
