@@ -13,10 +13,18 @@ dotfiles:
     dst: ~/Library/Mobile Documents/com~apple~CloudDocs/Stuff/iTerm2/com.googlecode.iterm2.plist
     link: true
     src: Library/Mobile Documents/com~apple~CloudDocs/Stuff/iTerm2/com.googlecode.iterm2.plist
+  f_load_temp_fan.10s.sh:
+    dst: ~/Library/Mobile Documents/com~apple~CloudDocs/Stuff/Bitbar/load_temp_fan.10s.sh
+    link: true
+    src: Library/Mobile Documents/com~apple~CloudDocs/Stuff/Bitbar/load_temp_fan.10s.sh
   f_pure.zsh:
     dst: ~/Library/Mobile Documents/com~apple~CloudDocs/Stuff/ohmyzsh/pure.zsh
     link: true
     src: Library/Mobile Documents/com~apple~CloudDocs/Stuff/ohmyzsh/pure.zsh
+  f_timezonesplus.30s.sh:
+    dst: ~/Library/Mobile Documents/com~apple~CloudDocs/Stuff/Bitbar/timezonesplus.30s.sh
+    link: true
+    src: Library/Mobile Documents/com~apple~CloudDocs/Stuff/Bitbar/timezonesplus.30s.sh
   f_zshrc:
     dst: ~/.zshrc
     link: true
@@ -27,3 +35,5 @@ profiles:
     - f_zshrc
     - f_pure.zsh
     - f_com.googlecode.iterm2.plist
+    - f_timezonesplus.30s.sh
+    - f_load_temp_fan.10s.sh
