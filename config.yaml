@@ -37,6 +37,14 @@ dotfiles:
     dst: ~/Documents/iTerm2/com.googlecode.iterm2.plist
     link: true
     src: Documents/iTerm2/com.googlecode.iterm2.plist
+  f_package-control.sublime-settings:
+    dst: ~/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings
+    link: true
+    src: Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings
+  f_preferences.sublime-settings:
+    dst: ~/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings
+    link: true
+    src: Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings
   f_pure.zsh:
     dst: ~/.oh-my-zsh/custom/pure.zsh
     link: true
@@ -57,3 +65,5 @@ profiles:
     - f_dracula.xccolortheme
     - f_com.apple.dt.xcode.plist
     - f_default.idekeybindings
+    - f_package-control.sublime-settings
+    - f_preferences.sublime-settings

@@ -1,0 +1,15 @@
+{
+	"close_windows_when_empty": true,
+	"color_scheme": "Packages/Dracula Color Scheme/Dracula.tmTheme",
+	"font_face": "FiraCode",
+	"font_size": 15,
+	"hot_exit": false,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"itg_scrollbar_small": true,
+	"itg_small_tabs": true,
+	"show_definitions": false,
+	"theme": "Adaptive.sublime-theme"
+}

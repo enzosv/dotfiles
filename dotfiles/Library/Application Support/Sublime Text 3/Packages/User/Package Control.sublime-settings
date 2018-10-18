@@ -1,0 +1,14 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"BracketHighlighter",
+		"Dracula Color Scheme",
+		"HTML-CSS-JS Prettify",
+		"Package Control"
+	]
+}
