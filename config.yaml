@@ -21,6 +21,10 @@ dotfiles:
     dst: ~/Documents/Bitbar/timezonesplus.30s.sh
     link: true
     src: Documents/Bitbar/timezonesplus.30s.sh
+  f_btt_autoload_preset.json:
+    dst: ~/.btt_autoload_preset.json
+    link: true
+    src: btt_autoload_preset.json
   f_com.apple.dt.xcode.plist:
     dst: ~/Library/Preferences/com.apple.dt.Xcode.plist
     link: false
@@ -67,3 +71,4 @@ profiles:
     - f_default.idekeybindings
     - f_package-control.sublime-settings
     - f_preferences.sublime-settings
+    - f_btt_autoload_preset.json
