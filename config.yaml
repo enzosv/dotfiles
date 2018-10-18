@@ -25,6 +25,10 @@ dotfiles:
     dst: ~/Library/Preferences/com.apple.dt.Xcode.plist
     link: false
     src: Library/Preferences/com.apple.dt.Xcode.plist
+  f_default.idekeybindings:
+    dst: ~/Library/Developer/Xcode/UserData/KeyBindings/Default.idekeybindings
+    link: true
+    src: Library/Developer/Xcode/UserData/KeyBindings/Default.idekeybindings
   f_dracula.xccolortheme:
     dst: ~/Library/Developer/Xcode/UserData/FontAndColorThemes/Dracula.xccolortheme
     link: true
@@ -52,3 +56,4 @@ profiles:
     - f_iterm2_com.googlecode.iterm2.plist
     - f_dracula.xccolortheme
     - f_com.apple.dt.xcode.plist
+    - f_default.idekeybindings
