@@ -9,6 +9,10 @@ config:
   showdiff: false
   workdir: ~/.config/dotdrop
 dotfiles:
+  d_alfred.alfredpreferences:
+    dst: ~/Documents/Alfred/Alfred.alfredpreferences
+    link: true
+    src: Documents/Alfred/Alfred.alfredpreferences
   d_user:
     dst: ~/Library/Application Support/Sublime Text 3/Packages/User
     link: true
@@ -67,3 +71,4 @@ profiles:
     - f_default.idekeybindings
     - f_btt_autoload_preset.json
     - d_user
+    - d_alfred.alfredpreferences
