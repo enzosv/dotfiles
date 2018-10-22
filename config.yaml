@@ -53,6 +53,10 @@ dotfiles:
     dst: ~/.oh-my-zsh/custom/pure.zsh
     link: true
     src: oh-my-zsh/custom/pure.zsh
+  f_shortcuts.json:
+    dst: ~/Library/Application Support/Spectacle/Shortcuts.json
+    link: true
+    src: Library/Application Support/Spectacle/Shortcuts.json
   f_zshrc:
     dst: ~/.zshrc
     link: true
@@ -72,3 +76,4 @@ profiles:
     - f_btt_autoload_preset.json
     - d_user
     - d_alfred.alfredpreferences
+    - f_shortcuts.json
